@@ -1,0 +1,18 @@
+document-meta:
+  title: ""
+  author: []
+  keywords: []
+  date: auto
+
+font-setting:
+  sans-font: "Roboto"
+  sans-font-cjk: "Noto Sans CJK JP"
+  serif-font: "New Computer Modern"
+  serif-font-cjk: "Noto Serif CJK JP"
+  
+document-setting:
+  columns: 1
+  fig-tab-separator: ": "
+  headding-numbering: "1. "
+
+
