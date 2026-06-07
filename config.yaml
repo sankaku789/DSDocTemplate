@@ -1,18 +1,21 @@
 document-meta:
-  title: ""
-  author: []
-  keywords: []
+  title: "ドキュメントタイトル"
+  subtitle: "デジタル庁デザインシステム準拠テンプレート"
+  author: ["作成者名"]
+  affiliation: "所属・プロジェクト名"
+  keywords: ["デジタル庁デザインシステム", "ドキュメントテンプレート"]
   date: auto
 
 font-setting:
-  sans-font: "Roboto"
-  sans-font-cjk: "Noto Sans CJK JP"
-  serif-font: "New Computer Modern"
-  serif-font-cjk: "Noto Serif CJK JP"
+  sans-font: "Noto Sans"
+  sans-font-cjk: "IPAexGothic"
+  mono-font: "Noto Sans Mono"
+  serif-font: "Noto Sans"
+  serif-font-cjk: "IPAexGothic"
   
 document-setting:
   columns: 1
   fig-tab-separator: ": "
-  headding-numbering: "1. "
-
-
+  heading-numbering: "1.1 "
+  show-header: true
+  show-footer: true
