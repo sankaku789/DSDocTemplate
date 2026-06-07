@@ -349,12 +349,14 @@
   body,
   title: meta.title,
   subtitle: meta-value("subtitle"),
-  status: "Template",
+  status: none,
 ) = {
   titlePage[
     #v(space-64)
-    #text(size: 9pt, weight: "bold", fill: dads-color.blue-800)[#status]
-    #v(space-24)
+    #if status != none [
+      #text(size: 9pt, weight: "bold", fill: dads-color.blue-800)[#status]
+      #v(space-24)
+    ]
     #rule(color: dads-color.blue-800, thickness: 3pt)
     #v(space-24)
     #text(size: 30pt, weight: "bold", fill: dads-color.blue-1100)[#title]

@@ -13,7 +13,6 @@
     title: "このテンプレートについて",
   )
   ],
-  status: "Digital Agency Design System",
 )
 
 = はじめに

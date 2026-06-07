@@ -13,7 +13,6 @@
     title: "概要",
   )
   ],
-  status: "Document Template",
 )
 
 = 概要

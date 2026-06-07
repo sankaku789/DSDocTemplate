@@ -69,7 +69,7 @@ document-setting:
 
 ## 主な関数
 
-- `docCover(body, title: ..., subtitle: ..., status: ...)`: 表紙を生成します。
+- `docCover(body, title: ..., subtitle: ..., status: ...)`: 表紙を生成します。`status` は指定した場合だけ表示されます。
 - `summaryBox(body, title: ...)`: 文書冒頭の概要枠を作ります。
 - `callout(body, kind: "info" | "success" | "warning" | "danger", title: ...)`: 注記枠を作ります。
 - `kpi(label, value, note: ...)`: 指標カードを作ります。
