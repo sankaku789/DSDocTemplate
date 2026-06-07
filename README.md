@@ -87,7 +87,7 @@ document-setting:
 
 ## フォント
 
-既定では、この環境で安定して使える `Noto Sans`、`IPAexGothic`、`Noto Sans Mono` を指定しています。別環境でフォント警告が出る場合は、利用可能なフォントを確認して `config.yaml` を変更してください。
+既定では、この環境で安定して使える `Noto Sans`、`IPAexGothic`、`Noto Sans Mono` を指定しています。コードブロックは `mono-font` と `mono-font-cjk` を使います。別環境でフォント警告が出る場合は、利用可能なフォントを確認して `config.yaml` を変更してください。
 
 ```sh
 typst fonts

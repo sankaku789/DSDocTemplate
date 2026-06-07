@@ -10,6 +10,7 @@ font-setting:
   sans-font: "Noto Sans"
   sans-font-cjk: "IPAexGothic"
   mono-font: "Noto Sans Mono"
+  mono-font-cjk: "IPAexGothic"
   serif-font: "Noto Sans"
   serif-font-cjk: "IPAexGothic"
   

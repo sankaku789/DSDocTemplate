@@ -88,6 +88,7 @@
   sansfont: fonts.sans-font,
   sansfont-cjk: fonts.sans-font-cjk,
   monofont: fonts.mono-font,
+  monofont-cjk: fonts.mono-font-cjk,
   margin-size: (top: 28mm, bottom: 24mm, left: 24mm, right: 24mm),
   columns: settings.columns,
   fig-separator: settings.fig-tab-separator,
@@ -138,7 +139,7 @@
   // 日本語文書として読みやすいようにサンセリフ、広めの行間、段落頭1em字下げにする。
   set text(font: (sansfont, sansfont-cjk), lang: "ja", size: 10pt, fill: dads-color.gray-900, weight: "regular")
   show strong: set text(font: (sansfont, sansfont-cjk), lang: "ja", weight: "bold")
-  show raw: set text(font: monofont, size: 9pt, fill: dads-color.gray-900)
+  show raw: set text(font: (monofont, monofont-cjk), size: 9pt, fill: dads-color.gray-900)
   show link: set text(fill: dads-color.blue-900)
   set par(first-line-indent: (amount: 1em, all: true), leading: 0.7em, justify: false, spacing: 1.0em)
 
@@ -201,7 +202,7 @@
     above: space-24,
     below: space-24,
   )[
-    #set text(font: monofont, size: 8.5pt)
+    #set text(font: (monofont, monofont-cjk), size: 8.5pt)
     #it
   ]
 
